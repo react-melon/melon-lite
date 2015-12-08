@@ -1,0 +1,18 @@
+{
+  "name": "melon-lite",
+  "version": "0.1.0",
+  "description": "melon with lite theme that ie8+ supported",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "ludafa",
+    "email": "ludafa@outlook.com"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "dep",
+    "test",
+    "tests"
+  ]
+}
