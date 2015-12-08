@@ -14,5 +14,8 @@
     "dep",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "melon-core": "~0.1.1"
+  }
 }

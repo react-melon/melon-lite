@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "fecs src",
     "build:amd": "sh tool/build-amd.sh",
-    "build:commonjs": "sh tool/build-commonjs.sh"
+    "build:commonjs": "sh tool/build-commonjs.sh",
+    "build": "npm run build:amd && npm run build:commonjs"
   },
   "author": {
     "name": "ludafa",
@@ -37,5 +38,8 @@
     "babel-plugin-transform-es2015-parameters": "^6.3.13",
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-react": "^6.3.13"
+  },
+  "peerDependencies": {
+    "melon-core": "^0.1.0"
   }
 }

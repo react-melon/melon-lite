@@ -2,5 +2,8 @@
 
 rm -rf lib
 edp build -f -s commonjs
-mv output/asset lib
-rm -rf output
+cd output
+mv asset/* .
+rm -rf asset
+cd ..
+mv output lib
